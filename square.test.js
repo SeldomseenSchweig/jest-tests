@@ -1,4 +1,4 @@
-const {square} = require("./square");
+const {square, cube} = require("./square");
 
 describe('square function', function(){
 
@@ -15,3 +15,19 @@ describe('square function', function(){
 
 
 });
+
+
+describe('cube function', function(){
+
+    test('cube should return the cubed value of a number', function(){
+        const res = cube(3);
+        expect(res).toEqual(27);
+        const num = cube(-2);
+        expect(num).toEqual(-8);
+    } );
+    
+
+
+});
+
+

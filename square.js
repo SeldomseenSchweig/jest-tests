@@ -4,8 +4,15 @@ return x * x;
 
 }
 
+
+function cube(x){
+    return x * x * x;
+    
+    
+    }
+
 module.exports = {
 
-    square
+    square, cube
 
 }
